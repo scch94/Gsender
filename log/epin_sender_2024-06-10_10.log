@@ -1,0 +1,6 @@
+[2024-06-10 10:15:51.155] [EpinMailSender] [main] [error] [] failed to create client  535 5.7.8 Username and Password not accepted. For more information, go to
+5.7.8  https://support.google.com/mail/?p=BadCredentials ada2fe7eead31-48d3948c073sm517961137.25 - gsmtp
+[2024-06-10 10:15:51.156] [EpinMailSender] [main] [error] [] failed to put client from error: use of closed network connection
+[2024-06-10 10:15:51.156] [EpinMailSender] [main] [error] [] failed to put client from error: use of closed network connection
+[2024-06-10 10:15:51.156] [EpinMailSender] [main] [error] [] failed to put clientdata error: use of closed network connection
+[2024-06-10 10:23:28.548] [EpinMailSender] [main] [error] [] Error al enviar el correo electrónico:%!(EXTRA *textproto.Error=504 5.7.4 Unrecognized authentication type [BN9PR03CA0656.namprd03.prod.outlook.com 2024-06-10T15:23:22.743Z 08DC8944EA3730DA])

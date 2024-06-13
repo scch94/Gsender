@@ -1,0 +1,29 @@
+{
+    "company_name":"Digicel",
+    "log_Level":"trace",
+    "log_Name":"epin_sender_",
+    "smtp_Config":{
+        "smtp_Host":"172.27.27.235",
+        "smtp_Port":"25"
+    },
+    "mail_Info":{
+        "mail_Sender":"kpi@digicelgroup.com",
+        "mail_Receibers":[
+            {
+                "email":"santicanal1994@outlook.com"
+            },
+            {
+                "email":"yuniel.carcases@inswitch.com"
+            },
+            {
+                "email":"diego.machado@digicelgroup.com"
+            }
+        ],
+        "ubication_message":"/opt/epin/applications/jkpi/resources/mail.html",
+        "subject":"KPI report Azure"
+
+    },
+    "ubication_files":"/home/epin/jkpi/resources/reports/",
+    "pdg_generation_time":"07",
+    "execution_time":"08:00:00"
+}

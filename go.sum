@@ -1,0 +1,6 @@
+github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
+github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/scch94/Gconfiguration v0.0.0-20240606135956-fe43797c4ed6 h1:atjc9bQ6hvr8ubgHpnRcoM++yy09eTYk0YRAyg/THxw=
+github.com/scch94/Gconfiguration v0.0.0-20240606135956-fe43797c4ed6/go.mod h1:/FT2WXG7bmhxIfhe2rs4AxeVQKsQ3YnhavY14VQaYgw=
+github.com/scch94/ins_log v0.0.0-20240606122144-fec17f9232b6 h1:Hb7g/3S0QmO+NGBvDNr97bAWxEwO9QahiOBSadd96ls=
+github.com/scch94/ins_log v0.0.0-20240606122144-fec17f9232b6/go.mod h1:Ye7266CglnRW8IHSXFOcGLJqm9sQL98u8UsQbc23Qvs=
