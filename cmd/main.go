@@ -141,11 +141,11 @@ func sendEmails(ctx context.Context) {
 		senderEmail := config.Config.MailInfo.MailSender
 		subject := config.Config.MailInfo.Subject
 
-		ins_log.Infof(ctx, "this are the emails to send")
+		ins_log.Infof(ctx, "these are the emails to send")
 		// Obtener todos los correos electrónicos de los destinatarios
 		var recipients []string
 		for i, receiver := range config.Config.MailInfo.MailReceivers {
-			ins_log.Infof(ctx, "%s: %s", i, receiver.Email)
+			ins_log.Infof(ctx, "%d: %s", i+1, receiver.Email)
 			recipients = append(recipients, receiver.Email)
 		}
 
@@ -157,7 +157,7 @@ func sendEmails(ctx context.Context) {
 		todayFormatted := today.Format("20060102")
 
 		// Concatenar el nombre del archivo
-		pdfFileName := fmt.Sprintf("report_Dominica_%s%s.pdf", todayFormatted, config.Config.PdgGenerationTime)
+		pdfFileName := fmt.Sprintf("report_Dominica_%s%s.pdf", todayFormatted, config.Config.PdfGenerationTime)
 
 		ins_log.Tracef(ctx, "this is the name of the pdf file %s", pdfFileName)
 
